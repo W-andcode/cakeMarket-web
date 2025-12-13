@@ -13,7 +13,7 @@ if (menuToggle && iconToggle && dropdown){
     };
 }
 
-// galler.html
+// gallery.html
 const imgModal = document.getElementById("imgModal");
 const modalImg = document.getElementById("modalImg");
 

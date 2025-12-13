@@ -103,6 +103,14 @@ header h1 {
   color: white;
   text-align: center;
 }
+.sub-gallery .overlay .harga {
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  background-color: #d9a679;
+  padding: 5px;
+  border-radius: 10px;
+}
 .overlay button {
   padding: 5px;
   border: 1px solid gray;
@@ -155,10 +163,10 @@ footer .navigation {
 
 /* start modal */
 .modal {
-  display: none;      
+  display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
   z-index: 999;
@@ -180,6 +188,12 @@ footer .navigation {
 /* end modal */
 
 @media (max-width: 768px) {
+  /* gallery */
+  .sub-gallery .overlay .harga {
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
   /* footer */
   footer .logo p {
     font-size: 10px;
@@ -219,6 +233,9 @@ footer .navigation {
   }
   .sub-gallery .overlay .desk {
     font-size: 7px;
+  }
+  .sub-gallery .overlay .harga {
+    font-size: 8px;
   }
   .overlay button {
     padding: 2px;
