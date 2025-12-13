@@ -153,6 +153,32 @@ footer .navigation {
   color: aliceblue;
 }
 
+/* start modal */
+.modal {
+  display: none;      
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+/* end modal */
+
 @media (max-width: 768px) {
   /* footer */
   footer .logo p {
