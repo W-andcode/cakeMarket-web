@@ -108,8 +108,9 @@ header h1 {
   font-weight: 800;
   font-size: 12px;
   background-color: #d9a679;
-  padding: 5px;
+  padding: 1px;
   border-radius: 10px;
+  margin-bottom: 3px;
 }
 .overlay button {
   padding: 5px;
@@ -190,7 +191,6 @@ footer .navigation {
 @media (max-width: 768px) {
   /* gallery */
   .sub-gallery .overlay .harga {
-    padding: 2px;
     border-radius: 5px;
     font-size: 10px;
   }
@@ -223,10 +223,10 @@ footer .navigation {
 
   /* gallery */
   .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
   .gallery .sub-gallery {
-    height: 100px;
+    height: 150px;
   }
   .gallery .sub-gallery h3 {
     font-size: 0.9em;
