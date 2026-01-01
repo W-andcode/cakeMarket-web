@@ -386,6 +386,7 @@ form .input-box input {
   border-radius: 10px;
   width: 100%;
   height: 40px;
+  color: purple;
 }
 form .input-box textarea {
   border: #cf17fd solid 1px;
@@ -394,6 +395,17 @@ form .input-box textarea {
   width: 70%;
   height: 60px;
   resize: none;
+  color: purple;
+}
+.input-box textarea:focus{
+  padding: 5px;
+  outline: none;
+  background-color: white;
+}
+.input-box input:focus{
+  padding: 5px;
+  outline: none;
+  background-color: white;
 }
 .input-box textarea::placeholder {
   color: white;
@@ -410,11 +422,14 @@ form .input-box i {
   color: white;
   font-size: 16px;
 }
+.input-box:focus-within i {
+  color: #aaa;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
 form .input-box:nth-child(4) i {
   position: absolute;
   top: 5px;
   right: 85px;
-  color: white;
   font-size: 16px;
 }
 .send-left form button {

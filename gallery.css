@@ -211,7 +211,7 @@ footer .navigation {
 }
 @media (max-width: 550px) {
   .container {
-    grid-template-rows: 20% 55% 25%;
+    grid-template-rows: 10% 65% 25%;
   }
   /* header */
   header h1 {
@@ -247,11 +247,12 @@ footer .navigation {
     align-items: start;
     display: grid;
     grid-template-areas:
+      "navigation"
       "copyright"
-      "platforms"
-      "navigation";
+      "platforms";
     justify-content: center;
-    align-content: center;
+    align-content:first baseline;
+    padding: 10px;
   }
   footer p {
     font-size: 10px;
